@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sylani Registeration Form </title>
+</head>
+
+<body>
+    <center>
+        <img src="./logoimg.png" width="550" height="120">
+        <h1> Sylani Online Academy </h1>
+        <fieldset style="width:40%; height: 90vh; background-color:lightgray; border: none;">
+            <form action="Submitted_form.html" method="get">
+                <h2>Student Registeration Form</h2>
+                <table cellspacing="10px">
+                    <tr>
+                        <td>Name :</td>
+                        <td><input type="text" name="Name" size="30%" placeholder="Name" required></td>
+                    </tr>
+                    <tr>
+                        <td>Father Name :</td>
+                        <td><input type="text" name="Fname" size="30%" placeholder="Father Name" required></td>
+                    </tr>
+
+                    <tr>
+                        <td>Passsword :</td>
+                        <td><input type="password" name="password" size="30%" placeholder="*******" required></td>
+                    </tr>
+
+                    <tr>
+                        <td>Address :</td>
+                        <td><textarea cols="29" rows="4" type="text" placeholder="Write Address" required></textarea>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Gender :</td>
+                        <td><input type="radio" name="Gender" id="Male" required>
+                            <label for="Male" id="Male">Male</label>
+
+                            <input type="radio" name="Gender" id="Female" required>
+                            <label for="Female" id="Female">Female</label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Language :</td>
+                        <td>
+                            <input type="checkbox" name="Urdu"> Urdu
+                            <input type="checkbox" name="English"> English
+                            <input type="checkbox" name="Sindhi"> Sindhi
+                            <input type="checkbox" name="Chinese"> Chinse
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>DOB :</td>
+                        <td><input type="date" name="DOB" required></td>
+                    </tr>
+
+                    <tr>
+                        <td>Email ID :</td>
+                        <td><input type="email" name="email" size="38%" placeholder="Email ID" required></td>
+                    </tr>
+
+                    <tr>
+                        <td>Mobile No :</td>
+                        <td><input type="text" name="Mob_No" size="30%" placeholder="Mobile NO" required></td>
+                    </tr>
+
+                    <tr>
+                        <td>City :</td>
+                        <td>
+                            <select name="Cities">
+                                <option align="center">Select Your City</option>
+                                <option value="hyd" align="center">Hyderabad</option>
+                                <option value="khi" align="center">Karachi</option>
+                                <option value="sukkur" align="center">Sukkur</option>
+                                <option value="matiari" align="center">Matiari</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Hobbies :</td>
+                        <td>
+                            <select name="Hobbies" multiple>
+                                <option value="Cricket" align="center" disabled>Cricket</option>
+                                <option value="Football" align="center">Football</option>
+                                <option value="hockey" align="center">Hockey</option>
+                                <option value="tennis" align="center">Tennis</option>
+                                <option value="tennis" align="center">Badminton</option>
+
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Picture Upload :</td>
+                        <td>
+                            <input type="file" name="image" accept="images/* .pdf .doc ">
+                            <button type="submit" value="Upload" align="right"> Upload</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type="submit" name="save" value="Submit Form" style="margin-left:20%; background-color: greenyellow;"></td>
+                    </tr>
+                </table>
+            </form>
+
+        </fieldset>
+    </center>
+
+</body>
+
+</html>
